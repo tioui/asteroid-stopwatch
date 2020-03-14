@@ -21,6 +21,7 @@
 import QtQuick 2.9
 import org.asteroid.controls 1.0
 import Nemo.Configuration 1.0
+import Nemo.KeepAlive 1.1
 
 Application {
     id: app
@@ -130,5 +131,6 @@ Application {
             previousTime.value = currentTime.getTime()
             elapsed.value += delta
         }
+        onRunningChanged: DisplayBlanking.preventBlanking = running
     }
 }

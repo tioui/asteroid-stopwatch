@@ -1,10 +1,15 @@
 # Asteroid Stopwatch
-A stopwatch app for [AsteroidOS](http://asteroidos.org/)
+A stopwatch app for [AsteroidOS](http://asteroidos.org/). This stopwatch app has been
+modified from the original work to make it prevent falling to sleep.
 
 ## Dependencies
 * [qml-asteroid](https://github.com/AsteroidOS/qml-asteroid)
 
 ## Copyright and License
+(C) Copyright 2020 by Louis Marchand
+
+Modified from the original work from 
+
 (C) Copyright 2015 by Tim Süberkrüb
 
 Part of this code is based on "Stopwatch" (https://github.com/baleboy/stopwatch)
